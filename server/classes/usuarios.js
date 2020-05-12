@@ -3,8 +3,8 @@ class Usuarios {
     constructor(){ 
         this.personas = [];
     }
-    agregarPersona(id,nombre,sala){
-        let persona = { id,nombre,sala };
+    agregarPersona(id,nombre,sala,imagen){
+        let persona = { id,nombre,sala,imagen };
         this.personas.push(persona);
         return this.personas;
     }

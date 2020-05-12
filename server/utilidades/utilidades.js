@@ -1,8 +1,9 @@
-const crearMensaje = (nombre,mensaje)=>{
+const crearMensaje = (nombre,mensaje,imagen)=>{
     return {
         nombre,
         mensaje,
-        fecha: new Date().getTime()
+        fecha: new Date().getTime(),
+        imagen
     }
 }
 
